@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "nulltotem",
+  "version": "${version}",
+  "name": "Totem of NULL - Ultimate Edition",
+  "description": "Blue NULL-energy totem with Orbital Cannon, NULL Rift, Void Collapse, NULL Shield and Death Protocol.",
+  "authors": ["you"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["net.nullmod.totem.NullTotemMod"] },
+  "mixins": ["nulltotem.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "*",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

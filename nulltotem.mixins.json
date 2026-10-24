@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "net.nullmod.totem.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["WitherSkullMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
